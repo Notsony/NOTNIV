@@ -1,0 +1,93 @@
+
+
+
+/* 基本設定 */
+*{
+font-family:"メイリオ",sans-serif;
+color: #534A43;
+}
+::selection{
+background: #5093e6;
+color: #FFFFFF;
+}
+
+
+
+/* 色の追加 */
+.T-siro{
+color: #FFFFFF;
+}
+.T-out{
+color: #7F7F7F;
+}
+.T-red{
+color: red;
+}
+.T-green{
+color: #388D66;
+}
+.T-link{
+color: #FF5656;
+}
+
+
+
+/* サイズの設定 */
+.T-10px{
+font-size: 10px;
+line-height: 20px;
+}
+.T-12px{
+font-size: 12px;
+line-height: 22px;
+}
+.T-13px{
+font-size: 13px;
+line-height: 23px;
+}
+.T-14px{
+font-size: 14px;
+line-height: 24px;
+}
+.T-16px{
+font-size: 16px;
+line-height: 26px;
+}
+.T-18px{
+font-size: 18px;
+line-height: 28px;
+}
+.T-20px{
+font-size: 20px;
+line-height: 30px;
+}
+.T-24px{
+font-size: 24px;
+line-height: 34px;
+}
+.T-30px{
+font-size: 30px;
+line-height: 40px;
+}
+
+
+
+/* リンク時の設定 */
+a:link{/* 未訪問 */
+color: #2f6567;
+text-decoration: none;
+}
+a:visited{/* 訪問済 */
+color: #2f6567;
+text-decoration: none;
+}
+a:hover{/* マウスオーバー */
+color: #df3a8d;
+text-decoration: underline;
+}
+a:active{/* クリック */
+color: #2f6567;
+text-decoration: underline;
+}
+
+

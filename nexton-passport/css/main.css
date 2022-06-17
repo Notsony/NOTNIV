@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+
+
+/* チェック用 */
+.dami{
+background-color: #666666;
+}
+
+
+
+/* ベース */
+html body{
+background: #FDFAF6 url(../../image/99_bg01.jpg) no-repeat center top fixed;
+}
+/* 基本包装 */
+.wrapper{
+width: 1020px;
+margin: 40px auto 150px auto;
+padding: 40px;
+}
+
+
+
+/* ネクストンパスポートアペンド紹介 */
+
+.title_image{	/* 見出しイラスト */
+width: 1020px;
+height: 80px;
+margin-bottom: 70px;
+}
+
+.box{	/* 共通の領域 */
+width: 1020px;
+margin-bottom: 70px;
+}
+
+.text01{	/* テキスト01 */
+text-align: center;
+}
+
+.image01{	/* イメージ01 */
+margin-bottom: 40px;
+}

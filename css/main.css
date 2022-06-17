@@ -1,0 +1,117 @@
+﻿@charset "utf-8";
+
+
+
+/* チェック用 */
+.dami{
+background-color: #666666;
+}
+
+
+
+/* ヘッダー */
+.header{	/* 領域 */
+width: 1100px;
+height: 600px;
+margin: 0 auto;
+}
+.header_image01{	/* タイトルロゴ */
+width: 451px;
+height: 210px;
+top: 330px;
+left: 325px;
+}
+.header_image02{	/* ブランドロゴ */
+width: 84px;
+height: 28px;
+bottom: 30px;
+right: 30px;
+}
+.header_image03{	/* イメージ */
+width: 1156px;
+height: 700px;
+top: 5px;
+left: -18px;
+}
+
+
+
+/* コンテンツ一覧 */
+.content-list_title{	/* 見出し */
+width: 1100px;
+height: 60px;
+margin-bottom: 50px;
+}
+.content-list{	/* 領域 */
+width: 1060px;
+margin-left: 20px;
+}
+
+.content-list_button{	/* 各コンテンツボタン */
+width: 520px;
+height: 270px;
+background: #FFFFFF;
+float: left;
+}
+.content-list li:nth-child(2n-1){	/* 各コンテンツボタン_奇数 */
+margin: 0 20px 50px 0;
+}
+.content-list li:nth-child(2n){	/* 各コンテンツボタン_偶数 */
+margin: 0 0 50px 0;
+}
+
+.content-list_button a{	/* リンク設定 */
+width: 520px;
+height: 270px;
+float: left;
+display: block;
+text-decoration: none;
+
+-webkit-transition: all 0.4s ease;
+-moz-transition: all 0.4s ease;
+-ms-animation: all 0.4s ease;
+-o-transition: all 0.4s ease;
+animation: all 0.4s ease;
+}
+.content-list_button a:hover{	/* リンク設定 */
+width: 520px;
+height: 270px;
+opacity: 0.3;
+float: left;
+display: block;
+text-decoration: none;
+}
+
+.content-list_button_image01{	/* サムネール01 */
+width: 520px;
+height: 166px;
+margin: 0;
+}
+.content-list_button_text01{	/* テキスト01 */
+width: 490px;
+height: 89px;
+margin: 0;
+padding: 15px 15px 0 15px;
+}
+.content-list_button_text01 p{	/* リンクへ */
+text-align: right;
+}
+
+.content-list_button_text02{	/* テキスト02 */
+width: 490px;
+height: 89px;
+margin: 0;
+padding: 15px 15px 0 15px;
+background: #bcbcbc;
+
+}
+.content-list_button_text02 p{	/* リンクへ */
+text-align: right;
+}
+
+.content-list_clear{	/* フロートのクリア */
+clear: both;
+}
+
+
+
